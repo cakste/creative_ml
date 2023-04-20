@@ -51,7 +51,7 @@ def density(
 def density_2d(
     prob_fn: Callable,
     n_points: int = 60,
-    span: list[int] = [-4, 4]
+    span: list = [-4, 4]
     ):
     # Points
     N = n_points

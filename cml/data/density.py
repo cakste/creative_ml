@@ -106,7 +106,7 @@ def circle(z, n_dens=10):
 def grid(z, 
          n_rows: int = 4, 
          n_cols: int = 4,
-         span: list[int] = [-3, 3],
+         span: list = [-3, 3],
          var: float = 0.02):
     full_dens = []
     pos_rows = np.linspace(span[0], span[1], n_rows)
